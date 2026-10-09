@@ -2,6 +2,7 @@ html{background-color: darkcyan;}
 
 UL {color:red;}
 a{color:darkgoldenrod}
+a:hover {color: red;}
 h1 {
 background-color: rgb(76, 76, 183); color: rgb(203, 50, 50);
 font-weight: normal;
@@ -13,7 +14,7 @@ p {
     background-color: pink;
     padding: 20%;
     margin: 50px;
-    font-size: 8px;
+    font-size: 18px;
 }
 
 img{
@@ -23,3 +24,5 @@ img{
     }
 
 #mv {width: 30%;}
+.highlight_01{background-color: aquamarine;}
+h5:hover{color: azure;}

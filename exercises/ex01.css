@@ -1,0 +1,25 @@
+html{background-color: darkcyan;}
+
+UL {color:red;}
+a{color:darkgoldenrod}
+h1 {
+background-color: rgb(76, 76, 183); color: rgb(203, 50, 50);
+font-weight: normal;
+}
+h2 {
+    background-color: blueviolet; color:plum; font-weight: bolder;
+}
+p {
+    background-color: pink;
+    padding: 20%;
+    margin: 50px;
+    font-size: 8px;
+}
+
+img{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+#mv {width: 30%;}

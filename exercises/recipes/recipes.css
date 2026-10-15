@@ -5,20 +5,12 @@ html{background-color: darkcyan;}
 #coaster {position:absolute; bottom: 50px;left: 100px;}
 
 #homelink {position:absolute; top: 50px; left: 100px;}
+#homelink IMG{width: 40px;}
 UL {color:red;}
 a{color:darkgoldenrod}
 a:hover {color: red;}
 h1 {
 background-color: rgb(76, 76, 183); color: rgb(203, 50, 50);
 font-weight: normal;
-}
-h2 {
-    background-color: blueviolet; color:plum; font-weight: bolder;
-}
-p {
-    background-color: pink;
-    padding: 20%;
-    margin: 50px;
-    font-size: 18px;
 }
 

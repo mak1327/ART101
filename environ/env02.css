@@ -1,0 +1,46 @@
+body {
+  background-image: url("mountain.jpeg");
+}
+
+h1{
+  background-color: darkcyan;
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 48;
+}
+#cat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 15px;
+}
+.top-section {
+    flex: 2;
+    margin-bottom: 50px;
+}
+.main-section {
+    display: flex;
+    gap: 400px;
+}
+#food{
+  gap: 30px;
+    align-items: flex-start;
+    background: #d32e2ea2;
+    border-right: 6px solid #bd1313;
+    border-radius: 8px;
+  }
+#fish{ 
+  width: 200px;
+}
+
+#snow{ 
+  gap: 30px;
+    align-items: flex-start;
+    background: #728cc283;
+    border-left: 6px solid #1c97cc;
+    border-radius: 8px;
+  }
+#snowball{
+   width: 200px;
+}

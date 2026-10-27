@@ -1,9 +1,8 @@
 // the cliker button program
 
 let counter=0;
-
 $("#needy-button").click(function(){ 
     //what to do when the button is clicked
-    counter = counter + 3;
+    counter = counter + 1;
     $("#needy-button").html ("I was clicked " + counter + " times");
 });

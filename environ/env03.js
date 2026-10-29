@@ -39,6 +39,6 @@ function askNumber(whatNumber) {
 $("#output").html("Bobby did not get the right amount of ammo. He will likely not survive the night.");
     }
 }
-$("#health").click(function () {
+$("#strength").click(function () {
  askNumber(3);
 });

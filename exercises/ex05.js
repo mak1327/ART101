@@ -1,3 +1,9 @@
+function paintPage (color){
+ $("body").css( "background-color", color );
+}
+
+paintPage("pink");
+
 let count=0;
 
 let colors=["green", "orange", "brown", "yellow", "gold", "purple", "red", "pink"];

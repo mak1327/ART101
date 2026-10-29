@@ -30,6 +30,17 @@ p{
     display: flex;
     gap: 400px;
 }
+.result-section { 
+  display: flex;
+  gap: 300px;
+}
+#output {
+  align-items: flex-start;
+  background-color: darkorchid;
+  font-family: monospace;
+  font-size: 28px;
+  border-radius: 6px;
+}
 #food{
   gap: 30px;
     align-items: flex-start;

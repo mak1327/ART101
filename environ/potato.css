@@ -5,9 +5,12 @@ body {
     background: white;
 }
 
+
 p { line-height: 1.5; }
 
+
 #items { display: flex; gap: 16px; margin: 24px 0; }
+
 
 .item {
     width: 64px;
@@ -22,7 +25,9 @@ p { line-height: 1.5; }
     user-select: none;
 }
 
+
 .item:active { cursor: grabbing; }
+
 
 #target {
     padding: 30px 12px;
@@ -31,11 +36,13 @@ p { line-height: 1.5; }
     background: #f7f7f5;
 }
 
+
 /* Highlight on pointer hover or when JavaScript adds the drag-over class. */
 #target:hover,
 #target.drag-over {
     border-color: #333;
     background: #deded8;
 }
+
 
 #result { min-height: 48px; }

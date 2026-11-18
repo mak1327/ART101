@@ -9,12 +9,13 @@
     <script src="potato.js" defer></script>
 </head>
 <body>
-    <p>Water the Potato please</p>
+    <p>Drag either item onto the target. It is looking for A.</p>
     <div id="items">
-        <div id="item-a" class="item" draggable="true">Watering can</div>
-        <div id="item-b" class="item" draggable="true">rake</div>
+        <!-- draggable lets the browser start dragging this element. -->
+        <div id="item-WateringCan" class="item" draggable="true">Watering Can</div>
+        <div id="item-Rake" class="item" draggable="true">Rake</div>
     </div>
-    <div id="target">this is potato</div>
-    <p id="result" aria-live="polite">The potato is unwatered</p>
+    <div id="target">Potato</div>
+    <p id="result" aria-live="polite">Nothing done yet.</p>
 </body>
 </html>
